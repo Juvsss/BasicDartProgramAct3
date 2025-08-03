@@ -34,7 +34,7 @@ double multiply(double a, double b) {
 
 double? divide(double a, double b) {
   if (b == 0) {
-    return null; // Return null for division by zero
+    return null; 
   }
   return a / b;
 }
